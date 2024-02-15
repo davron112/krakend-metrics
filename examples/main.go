@@ -6,17 +6,17 @@ import (
 	"log"
 	"os"
 
+	viper "github.com/davron112/krakend-viper/v2"
+	"github.com/davron112/lura/v2/config"
+	"github.com/davron112/lura/v2/logging"
+	"github.com/davron112/lura/v2/proxy"
+	krakendgin "github.com/davron112/lura/v2/router/gin"
+	"github.com/davron112/lura/v2/router/gorilla"
+	"github.com/davron112/lura/v2/router/mux"
 	"github.com/gin-gonic/gin"
-	viper "github.com/krakendio/krakend-viper/v2"
-	"github.com/luraproject/lura/v2/config"
-	"github.com/luraproject/lura/v2/logging"
-	"github.com/luraproject/lura/v2/proxy"
-	krakendgin "github.com/luraproject/lura/v2/router/gin"
-	"github.com/luraproject/lura/v2/router/gorilla"
-	"github.com/luraproject/lura/v2/router/mux"
 
-	metricsgin "github.com/krakendio/krakend-metrics/v2/gin"
-	metricsmux "github.com/krakendio/krakend-metrics/v2/mux"
+	metricsgin "github.com/davron112/krakend-metrics/v2/gin"
+	metricsmux "github.com/davron112/krakend-metrics/v2/mux"
 )
 
 func main() {

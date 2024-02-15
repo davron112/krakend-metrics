@@ -1,11 +1,11 @@
-module github.com/krakendio/krakend-metrics/v2
+module github.com/davron112/krakend-metrics/v2
 
 go 1.17
 
 require (
 	github.com/gin-gonic/gin v1.7.7
-	github.com/krakendio/krakend-viper/v2 v2.0.1
-	github.com/luraproject/lura/v2 v2.0.5
+	github.com/davron112/krakend-viper/v2 v2.0.1
+	github.com/davron112/lura/v2 v2.0.5
 	github.com/rcrowley/go-metrics v0.0.0-20180406234716-d932a24a8ccb
 )
 
@@ -19,7 +19,7 @@ require (
 	github.com/gorilla/mux v1.8.0 // indirect
 	github.com/hashicorp/hcl v1.0.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
-	github.com/krakendio/flatmap v1.1.1 // indirect
+	github.com/davron112/flatmap v1.1.1 // indirect
 	github.com/leodido/go-urn v1.2.1 // indirect
 	github.com/magiconair/properties v1.8.1 // indirect
 	github.com/mattn/go-isatty v0.0.14 // indirect

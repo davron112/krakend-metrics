@@ -8,14 +8,14 @@ import (
 	"strconv"
 	"time"
 
+	"github.com/davron112/lura/v2/config"
+	"github.com/davron112/lura/v2/logging"
+	"github.com/davron112/lura/v2/proxy"
+	krakendgin "github.com/davron112/lura/v2/router/gin"
 	"github.com/gin-gonic/gin"
-	"github.com/luraproject/lura/v2/config"
-	"github.com/luraproject/lura/v2/logging"
-	"github.com/luraproject/lura/v2/proxy"
-	krakendgin "github.com/luraproject/lura/v2/router/gin"
 
-	metrics "github.com/krakendio/krakend-metrics/v2"
-	"github.com/krakendio/krakend-metrics/v2/mux"
+	metrics "github.com/davron112/krakend-metrics/v2"
+	"github.com/davron112/krakend-metrics/v2/mux"
 )
 
 // New creates a new metrics producer with support for the gin router

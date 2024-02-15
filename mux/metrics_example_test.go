@@ -11,12 +11,12 @@ import (
 	"strings"
 	"time"
 
-	metrics "github.com/krakendio/krakend-metrics/v2"
-	"github.com/luraproject/lura/v2/config"
-	"github.com/luraproject/lura/v2/encoding"
-	"github.com/luraproject/lura/v2/logging"
-	"github.com/luraproject/lura/v2/proxy"
-	"github.com/luraproject/lura/v2/transport/http/client"
+	metrics "github.com/davron112/krakend-metrics/v2"
+	"github.com/davron112/lura/v2/config"
+	"github.com/davron112/lura/v2/encoding"
+	"github.com/davron112/lura/v2/logging"
+	"github.com/davron112/lura/v2/proxy"
+	"github.com/davron112/lura/v2/transport/http/client"
 )
 
 var defaultCfg = map[string]interface{}{metrics.Namespace: map[string]interface{}{"collection_time": "100ms"}}
