@@ -50,7 +50,7 @@ func New(ctx context.Context, e config.ExtraConfig, l logging.Logger) *Metrics {
 }
 
 // Namespace is the key to look for extra configuration details
-const Namespace = "github_com/devopsfaith/krakend-metrics"
+const Namespace = "github_com/davron112/krakend-metrics"
 
 // Config holds if a component is active or not
 type Config struct {
